@@ -1,0 +1,186 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{multirow}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\textbf{Phone} 8291256765
+\end{quote}
+\end{minipage} &
+\multirow{2}{*}{\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\textbf{Caleb Felix}
+\end{quote}
+\end{minipage}} & \begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\textbf{LinkedIn} linkedin.com/in/calebfelix
+\end{quote}
+\end{minipage} \\
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\textbf{E-mail} calebfelix38@gmail.com
+\end{quote}
+\end{minipage} & & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Github} github.com/calebfelix
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+A developer who is eager to learn and wants to apply his knowledge in
+the real world. Works at a fast pace to meet tight deadlines. An
+enthusiastic team player ready to contribute to the
+company\textquotesingle s success.
+
+\textbf{Education}
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Course}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Institute}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Year of Passing}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Percentage/CGPA}
+\end{minipage} \\
+\midrule()
+\endhead
+Bachelor of Engineering: IT & \emph{Xavier Institute of Engineering} &
+2023 & 8.15 CGPA \\
+H.S.C & \emph{Wilson College} & 2019 & 58.96\% \\
+S.S.C & \emph{Ryan International} & 2017 & 70.8\% \\
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{Technical Skills}
+
+•Python\\
+•HTML / CSS / JS\\
+•Linux
+
+\textbf{Internships}
+
+\textbf{Web Developer}\emph{MyCryptoMart, Mumbai}
+\textbar{}\textbf{2021-12 - 2022-05}\\
+•Collaborated with the front-end team and created Back-end for the
+MyCryptoMart website.
+
+•Implemented API integration with OpenSeas platform\\
+•Planned website development, converting mock-ups into usable web
+presence with HTML, JavaScript, Express, EJS and JSON coding.
+
+\textbf{Software Developer Intern}\emph{Trainity, virtual}
+\textbar{}\textbf{2021-09 - 2021-11}•Developed several web applications
+using Mongo dB, Express, Node.•Hosted Web Application to the internet.
+
+•Developed an understanding of working of an API.
+
+\textbf{Projects}
+
+•\textbf{Music Catalogue Management System using Flask:} A web-based
+music application where the user can store the music in an organized
+manner. also took part in inter-college PRAGATI Project competition.
+Flask, mysql\\
+•\textbf{Paying Guest website:} A website where PG students may discover
+suitable accommodation. Node, mongodb, express
+
+\textbf{Certifications}
+
+•Crash Course on Python by Google \textbar{} \textbf{2020-07}\\
+•Using Python to Interact with the Operating System by Google \textbar{}
+\textbf{2021-08}
+
+\textbf{Areas of Interest}
+
+•Cybersecurity\\
+•Web Dev\\
+•Artificial Intelligence
+
+\textbf{Technical Paper Publications}
+
+•``Zeco - The Cleanup Bot'' IJIRT (International Journal of Innovative
+Research in Technology) \textbar{} \textbf{2023-05}\\
+Paper ID: 159524 Volume 9, Issue 12\\
+IOT-based final year project a vacuum cleaner bot that can be both
+automatically operated as well as manually using Arduino uno
+microcontroller and a BLDC motor to make it much more optimised than the
+existing systems.
+\end{quote}
+
+\end{document}
